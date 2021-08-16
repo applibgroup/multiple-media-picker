@@ -42,7 +42,9 @@ public class OpenGalleryAbilitySlice extends AbilitySlice {
         bitmapList.clear();
         selected.clear();
 
-        if (!imagesSelected.isEmpty() && imagesSelected.size() > 0) {
+        if (imagesSelected.isEmpty() && imagesSelected.size() != 0) {
+            HiLog.info(LABEL, "  List is empty");
+        } else {
             appBarTitle.setText(String.valueOf(imagesSelected.size()));
             HiLog.info(LABEL, "  imagesSelected.size() :" + imagesSelected.size());
         }
