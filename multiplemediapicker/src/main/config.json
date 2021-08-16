@@ -15,7 +15,7 @@
   "deviceConfig": {
   },
   "module": {
-    "package": "com.erikagutierrez.multiplemediapicker",
+    "package": "com.deveco.multiplemediapicker",
     "deviceType": [
       "phone","tv"
     ],
