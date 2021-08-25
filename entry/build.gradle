@@ -20,7 +20,7 @@ ohos {
 dependencies {
     testImplementation 'junit:junit:4.13'
     ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
-    implementation project(':multiplemediapicker')
+    implementation 'dev.applibgroup:multiplemediapicker:1.0.0'
 }
 
 decc {
