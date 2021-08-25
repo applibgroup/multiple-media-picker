@@ -44,6 +44,15 @@ In order to use the library, add the following line to your **root** gradle file
   
   ```
 
+3 .  For using MultiMediaPicker from a remote repository in separate application, add the below dependencies in entry/build.gradle file.
+
+  ```
+  	dependencies {
+              implementation 'dev.applibgroup:multiplemediapicker:1.0.0'
+              testCompile 'junit:junit:4.12'
+  	}
+  ```
+
 
 # Usage
 
